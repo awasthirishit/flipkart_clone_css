@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+  background-color: blue;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh );
+}
+
+.logo img {
+  width: 88px;
+  padding: 0 25px;
+}
+nav ul {
+  display: flex;
+  height: 58px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+
+}
+.search input{
+  height: 27px;
+  width: 30vw;
+  padding: 0 12px;
+  margin: 0px 15px 0px 50px;
+  border-radius: 6px;
+}
+
+.btn Button{
+    padding: 8px;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    background: blue;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.slider{
+  width: 80vw;
+  margin: 12px auto;
+  overflow: hidden;
+}
+/* .slider img {
+    width:80vw;
+    margin: 12px auto;
+    
+} */
+.card-item{
+    padding: 5px;
+
+    display: inline-flex;
+    flex-direction: column;
+}
+.card{
+  margin: 37px auto;
+  max-width: 91vw;
+    
+
+}
+
+.cardds{
+  display: flex;
+  overflow: scroll;
+
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.lines{
+    font-family: 'Ubuntu', sans-serif;
+}
+.lines p {
+    text-align: center;
+    font-size: small;
+}
+footer {
+  height: 12vh;
+  background-color: blue;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
